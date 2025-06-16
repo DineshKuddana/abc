@@ -387,7 +387,7 @@ background-color: rgb(255, 44, 44);
   display: flex;
   justify-content: center;
   opacity: 0;
-  transform: translateX(-50px);
+  transform: translateX(0px);
   transition: all 0.8s ease;
 }
 
@@ -404,7 +404,7 @@ background-color: rgb(255, 44, 44);
   flex: 1 1 500px;
   max-width: 600px;
   opacity: 0;
-  transform: translateX(50px);
+  /* transform: translateX(-20px); */
   transition: all 1s ease;
 }
 
@@ -715,7 +715,7 @@ span{
 
 .animate-right {
   opacity: 0;
-  transform: translateX(400px);
+  transform: translateX(200px);
   transition: all 1s ease-in;
 }
 
